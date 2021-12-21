@@ -1,0 +1,33 @@
+<nav class="navbar navbar-dark bg-dark">
+    <a class="navbar-brand">
+        <img class="logo" [routerLink]="['/']" src="assets/img/logo-senai.png">
+    </a>
+    <form class="search-bar">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+    </form>
+
+    <div class="conjunto">
+        <button class="login-button" [routerLink]="['/app-login']">
+                LOGIN
+            </button>
+
+
+        <button class="cart-button" [routerLink]="['/search-bar']">
+                <img class="cart-image" src="assets/img/cart.webp">
+            </button>
+
+    </div>
+
+
+    <div class="navigation">
+        <ul class="nav-list">
+            <li class="" [routerLink]="['/app-produtos']">CONSOLE</li>
+            <li class="" [routerLink]="['/app-produtos']">COMPUTADORES</li>
+            <li class="" [routerLink]="['/app-produtos']">JOGOS</li>
+            <li class="" [routerLink]="['/app-produtos']">CELULAR</li>
+            <li class="" [routerLink]="['/app-produtos']">ACESSÓRIOS</li>
+        </ul>
+    </div>
+
+</nav>

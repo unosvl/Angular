@@ -1,0 +1,85 @@
+.container {
+    font-size: 2em;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #2C4169;
+    text-align: center;
+    color: white;
+    width: 40%;
+    height: fit-content;
+    border-radius: 20px;
+    margin-top: 4%;
+}
+
+.e-mail {
+    padding: 2%;
+    font-size: 0.6em;
+}
+
+.e-mail-input {
+    border-radius: 10px;
+    margin: 2%;
+    width: 90%;
+    font-size: 0.7em;
+}
+
+.password {
+    padding: 2%;
+    font-size: 0.6em;
+}
+
+.password-input {
+    border-radius: 10px;
+    margin: 2%;
+    width: 90%;
+    font-size: 0.7em;
+}
+
+.botao {
+    border-radius: 10px;
+    border-width: 3px;
+    text-align: center;
+    width: fit-content;
+    height: fit-content;
+    margin: 3%;
+    background-color: #0FFE52;
+    font-size: 25px;
+}
+
+.botaoc {
+    border-radius: 10px;
+    border-width: 3px;
+    text-align: center;
+    width: fit-content;
+    height: fit-content;
+    margin: 3%;
+    background-color: #0FFE52;
+    font-size: 25px;
+}
+
+.botaoc a {
+    text-decoration: none;
+    color: black;
+}
+
+@media only screen and (min-width:760px) {
+    .e-mail {
+        font-size: 1.3em;
+    }
+    .password {
+        font-size: 1.3em;
+    }
+    .e-mail-input {
+        height: 30px;
+    }
+    .password-input {
+        height: 30px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .container {
+        width: 70%;
+    }
+}

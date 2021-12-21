@@ -1,0 +1,73 @@
+/*Carousel*/
+
+.carousel {
+    width: 50%;
+    height: 25%;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: black;
+}
+
+
+/*Elementos da barra de anúncio*/
+
+.container-2 {
+    flex-direction: column;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+    background-color: #2C4169;
+    border-radius: 10px;
+}
+
+h1 {
+    align-items: center;
+    color: white;
+    font-size: 3em;
+}
+
+.text-box {
+    margin: 10px;
+}
+
+
+/*Texto Produtos*/
+
+.d-flex {
+    background-color: #2C4169;
+    color: white;
+    font-size: 1.7rem;
+    margin-top: 2%;
+    width: 100%;
+}
+
+
+/*Elementos das imagens dos produtos*/
+
+.container-3 {
+    flex-direction: row-reverse;
+    display: flex;
+    text-align: center;
+    display: flex;
+}
+
+.produtos {
+    margin: 0 auto;
+    width: 50%;
+    height: 40%;
+}
+
+.card {
+    margin: 50px auto;
+    width: 85%;
+    border-radius: 50px;
+}
+
+.card h5 {
+    font-size: 1.5em;
+}

@@ -1,0 +1,27 @@
+<div class="container">
+    <form onsubmit="return gerar_json(this);" action="">
+
+        Nome:<input id="name" type="nome" />
+
+        <br /> E-mail:
+        <input id="email" type="email" />
+
+        <br /> Senha:
+        <input id="password" type="password" />
+
+
+        <br /> CEP:
+        <input name="cep" class="form-control cep_mask" id="cep" required="" onblur="pesquisacep(this.value);" type="text" maxlength="9">
+
+        <br /> Endereço:
+        <input name="endereco" disabled="" class="form-control" id="endereco">
+
+        <br /> Número:
+        <input name="numero" class="form-control" id="numero">
+
+        <br />
+
+        <button class="btn btn-success" type="submit">Cadastrar</button>
+    </form>
+</div>
+<script type="text/javascript" src="/cadastro/script.js"></script>

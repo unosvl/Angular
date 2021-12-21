@@ -1,0 +1,46 @@
+.product-container {
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.image-container {
+    display: block;
+    width: 90%;
+    margin: 20px;
+}
+
+.product-image {
+    width: 70%;
+}
+
+.list {
+    margin: 20px;
+}
+
+.col ul {
+    padding: 40px;
+}
+
+.col ul li {
+    list-style: none;
+    font-size: 1.3em;
+    padding: 5px;
+}
+
+.description-title {
+    margin: 20px;
+}
+
+.description-text {
+    text-align: justify;
+    font-size: 1em;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+}

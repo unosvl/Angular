@@ -1,0 +1,87 @@
+header {
+    height: 150px;
+    font-size: 25px;
+    font-family: sans-serif;
+    display: flex;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: fit-content;
+    text-align: center;
+}
+
+.navbar-brand {
+    margin: 15px;
+    cursor: pointer;
+    display: flex;
+    max-width: 100px;
+}
+
+.search-bar {
+    display: flex;
+    width: 50%;
+}
+
+.conjunto {
+    justify-content: space-between;
+    display: flex;
+}
+
+.login-button {
+    margin: 15px;
+    font-size: 20px;
+    background-color: #0FFE52;
+    border-radius: 10px;
+    height: 50px;
+    width: fit-content;
+    text-decoration: none;
+    color: black;
+}
+
+.logo {
+    width: 100%;
+}
+
+.cart-button {
+    width: inherit;
+    margin: 15px;
+    background-color: #0FFE52;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.cart-image {
+    width: 40px;
+}
+
+.navigation {
+    display: inline-block;
+    width: 100%;
+    box-sizing: border-box;
+    height: 65px;
+}
+
+nav {
+    flex: 1;
+    text-align: center;
+}
+
+.nav-list {
+    background-color: #2C4169;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    align-content: center;
+    margin: 15px;
+    background-color: #F80808;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}

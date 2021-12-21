@@ -1,0 +1,33 @@
+.d-flex {
+    background-color: #2C4169;
+    color: white;
+    font-size: 1.7rem;
+    margin-top: 2%;
+    width: 100%;
+}
+
+
+/*Elementos das imagens dos produtos*/
+
+.container-3 {
+    flex-direction: row;
+    display: flex;
+    box-sizing: inherit;
+    margin: 20px auto;
+    text-align: center;
+    width: 50%;
+}
+
+.produtos {
+    margin: 0 auto;
+    width: 50%;
+}
+
+.card {
+    margin: 10px auto;
+    padding: 20px;
+}
+
+.card h5 {
+    font-size: 1.5em;
+}
